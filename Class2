@@ -1,0 +1,40 @@
+variable assignment
+  -equal operator(=)
+  -left assignment operator(<-)
+  -right assignment operator(->)
+  
+Variable declaration
+  -declared with the help of letters, dot and underscore
+  -can start with a underscore not followed by a number
+  
+Quotient : %/%
+Remainder : %%
+
+&& :  used to compare the first element of the vector and return true if both are true
+|| :  used to compare the first element of the vector and return true if any one is true
+
+Logical operators : <,>,<=,>=,==,!=
+
+Assignment operators :
+  -Left assignment : <- , <<- , =
+  -Right assignment : -> , ->>
+  
+colon operator
+  -prints a continous list of numbers from start to end (either side of colon)
+  
+%in% operation
+  - used to check whether a number lies in the list of another variable
+  -eg : v16<-2:8
+        v17<-5
+        print(v17 %in% v16)
+      Output : TRUE as 5 exists in 2:8
+      
+Defining a Matrix :
+  -M= matrix(c(2,3,4,5,6,7),nrow=2,ncol=3,byrow = TRUE)
+  
+Defining a transpose of a Matrix
+  -t(M) where M is the Matrix
+  
+%*% opereation
+  - used to define the multiplication between two matrices
+  
